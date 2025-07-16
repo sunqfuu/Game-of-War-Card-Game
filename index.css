@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #2E2E2E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#my-score, #computer-score {
+    margin: 0;
+    height: 15px;
+}
+
+#cards {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.card-slot {
+    border: 1px solid black;
+    height: 140px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.card {
+    width: 100px;
+    height: 140px;
+}
+
+button {
+    background-color: #FBBF24;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F59E0B;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #F9A8D4;
+}
+
+.draw {
+    margin-top: 10px;
+}
+
