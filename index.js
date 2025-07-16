@@ -58,7 +58,7 @@ drawCardBtn.addEventListener("click", () => {
             `
             const winnerText = determineCardWinner(data.cards[0], data.cards[1])
             header.textContent = winnerText
-            
+
             if (data.remaining === 0) {
                 drawCardBtn.disabled = true
                 if (computerScore > myScore) {
